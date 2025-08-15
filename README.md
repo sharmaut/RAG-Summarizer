@@ -4,7 +4,7 @@ This project is an AI-powered tool designed to help users understand complex med
 
 ## Description
 
-Navigating medical literature can be daunting for patients and even for healthcare professionals looking for quick summaries. This application bridges that gap by providing a simple interface to query complex medical topics. The backend pipeline uses Playwright to scrape up-to-date documents, which are then indexed in a PostgreSQL database. When a user submits a query, a Hugging Face RAG model retrieves the most relevant information and generates a context-aware summary, complete with citations and safety disclaimers.
+This application provides a simple interface to query complex medical topics. The backend pipeline uses Playwright to scrape up-to-date documents, which are then indexed in a PostgreSQL database. When a user submits a query, a Hugging Face RAG model retrieves the most relevant information and generates a context-aware summary, complete with citations and safety disclaimers.
 
 ## Key Features
 
